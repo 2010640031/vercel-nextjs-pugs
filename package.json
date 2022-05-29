@@ -3,9 +3,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "MONGODB_URI=mongodb+srv://dom:Schinken67@cluster0.gyhew.mongodb.net/?retryWrites=true&w=majority"
   },
   "dependencies": {
+    "mongodb": "^4.6.0",
     "mongoose": "^6.0.11",
     "next": "latest",
     "react": "^17.0.2",
